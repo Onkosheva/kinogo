@@ -1,0 +1,157 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ li{
+     list-style: none;
+ }
+ img{
+     max-width: 100%;
+
+ }
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 -15px;
+ }
+ .col-8{
+     width: 66.6666%;
+     padding:0 15px;
+ }
+ .col-6{
+     width: 50%;
+     padding: 0 15px;
+ }
+ .col-3{
+     width: 25%;
+     padding:0 15px;
+ }
+ .col-4{
+     width: 33.3333%;
+     padding: 0 15px;
+ }
+ .container{
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ header{
+     padding: 25px 0;
+     background: dimgray;
+ }
+ header a{
+     text-transform: uppercase;
+
+ }
+ header .container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .logo{
+     font-size: 40px;
+     font-weight: bold;
+ }
+ .top-menu-item{
+     font-size: 24px;
+     margin-left: 10px;
+ }
+ .search{
+     display: flex;
+     align-items: center;
+
+ }
+ .search-form{
+     height: 41px;
+     padding: 10px 15px;
+
+ }
+ .search-form::placeholder{
+     color: #acacac;
+     font-size: 20px;
+
+ }
+ .search-btn{
+     height: 41px;
+     font-size: 18px;
+     padding: 5px 25px;
+     background: black;
+     color: white;
+     margin-left: 3px;
+     border-radius: 5px;
+ }
+
+ .movie{
+     background: black;
+     color: white;
+     padding: 20px 0;
+ }
+ .movie a{
+     color: white;
+ }
+ .genres h2{
+     font-size: 25px;
+     color: white;
+     padding-bottom: 10px;
+
+ }
+ .years h2{
+     font-size: 25px;
+     color: white;
+     padding-bottom: 10px;
+ }
+ .years li:last-child{
+     padding-bottom: 20px;
+ }
+ .genres li, .years li:last-child{
+     line-height: 25px;
+ }
+ .box {
+     background: #d1d1d1;
+     padding: 10px 10px;
+     margin-bottom: 15px;
+
+ }
+ .movie-img{
+     width: 100%;
+     display: flex;
+     height: 220px;
+ }
+ .movie-img img{
+     object-fit: contain;
+ }
+
+ .box h2{
+     font-weight: 200;
+     font-size: 20px;
+     padding: 12px 0 25px;
+     color: black;
+ }
+ .box ul{
+     padding-bottom: 25px;
+     color: black;
+ }
+ .title-list{
+     font-weight: 500;
+     font-size: 25px;
+     line-height: 29px;
+     color: #FFFFFF;
+ }
+ .flex{
+     display: flex;
+ }
+
+
+
+
+
+
+
